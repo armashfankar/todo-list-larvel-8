@@ -102,7 +102,7 @@ class ToDoController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param $order_reference_number
+     * @param $todo_reference_number
      * @return JsonResponse
      * @throws ValidationFailedException
      */
