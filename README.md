@@ -13,8 +13,6 @@
 - User registration not required, sample user(s) can be seeded
 
 
-### Demo Video:
-
 ### Prerequisites
 Here's a basic setup:
 
@@ -93,6 +91,27 @@ Here's a basic setup:
     php artisan queue:work --queue=default
     ```
 
-
 9. Open browser:
     http://localhost:8000
+
+10. Rest APIs:
+    ```shell script
+    
+    All to-do of a user:
+    [GET] http://{{todo}}/api/v1/todo?user_reference_number=USR1486943712862378
+    
+    Create to-do:
+    [POST] http://{{todo}}/api/v1/todo
+
+    Delete to-do:
+    [Delete] http://{{todo}}/api/v1/todo/TOD4816946722893176
+
+    Update to-do:
+    [Patch] http://{{todo}}/api/v1/todo/TOD4816678924841832
+
+    Create Reminder:
+    [POST] http://{{todo}}/api/v1/reminder
+
+    Delete Reminder:
+    [Delete] http://{{todo}}/api/v1/reminder/REM6841789188537352
+    ```
