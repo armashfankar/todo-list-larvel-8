@@ -1,4 +1,4 @@
-# Create a small to-do list REST API using Laravel
+# Create a small to-do list REST API using Laravel 8
 
 ### Problem Statment
 
@@ -36,13 +36,11 @@ Here's a basic setup:
    ```shell script
     cd todo-list-larvel-8/
     composer install
-    
     ```
 
 3. Copy `.env.example` to create `.env` file:
     ```shell script
     cp .env.example .env
-    
     ```
 
 4. Configure Database & Queue Drive in `.env` file:
@@ -77,7 +75,6 @@ Here's a basic setup:
      ```shell script
     mysql -u root -p
     create database todo;
-    
     ```
 
 6. Migrate database:
