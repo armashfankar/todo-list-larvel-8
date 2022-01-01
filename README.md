@@ -91,10 +91,7 @@ Here's a basic setup:
     php artisan queue:work --queue=default
     ```
 
-9. Open browser:
-    http://localhost:8000
-
-10. Rest APIs:
+9. Rest APIs:
     ```shell script
     
     All to-do of a user:
